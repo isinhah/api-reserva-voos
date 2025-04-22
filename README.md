@@ -1,12 +1,12 @@
 <h1 align="center">
-  Airline Ticket Reservation System
+  Sistema de Reserva de Passagens Aéreas
 </h1>
 
-## ✈️ Projeto
+## Descrição
 
 API REST desenvolvida para gerenciar a reserva de passagens aéreas. Através desta API, passageiros podem buscar voos disponíveis, reservar assentos e obter tickets para suas reservas.
 
-## 🛫️ Fluxo de Operações
+## Fluxo do Projeto
 
 1. **Buscar Voos Disponíveis**: Passageiros podem procurar os voos disponíveis.
 2. **Buscar Assentos Disponíveis**: Após selecionar um voo, o passageiro pode procurar os assentos disponíveis para esse voo específico.
@@ -14,7 +14,7 @@ API REST desenvolvida para gerenciar a reserva de passagens aéreas. Através de
 4. **Criação Automática de Ticket**: Após a reserva ser criada, a disponibilidade do assento é atualizada e um ticket é gerado automaticamente. O ticket inclui o ID da reserva, o número do ticket e o ID do voo.
 5. **Consultar Ticket**: O passageiro pode buscar informações sobre o ticket utilizando o ID da reserva.
 
-## 🛩️ Endpoints
+## Endpoints
 **Documentação Local**: http://localhost:8080/swagger-ui/index.html
 
 <details>
@@ -34,7 +34,7 @@ API REST desenvolvida para gerenciar a reserva de passagens aéreas. Através de
     <img src="./media/tickets.png" alt="Tickets">
 </details>
 
-## 💻 Tecnologias
+## Tecnologias
 - Linguagem: Java
 - Framework: Spring Boot (Web, Jpa, Security)
 - Banco de Dados: PostgreSQL
@@ -44,7 +44,7 @@ API REST desenvolvida para gerenciar a reserva de passagens aéreas. Através de
 - JUnit 5
 - Mockito
 
-## 🔎 Diagramas
+## Diagramas
 <details>
     <summary>Diagrama de Classes</summary>
     <img src="./media/uml_diagram.png" alt="Diagrama de Classes">
@@ -54,7 +54,7 @@ API REST desenvolvida para gerenciar a reserva de passagens aéreas. Através de
     <img src="./media/db_diagram.png" alt="Diagrama de Entidade e Relacionamento">
 </details>
 
-## 🛠️ Configuração e Execução
+## Configuração e Execução
 
 Pré-requisito: Java 17
 1. Clone o repositório
@@ -62,7 +62,7 @@ Pré-requisito: Java 17
 3. Crie o database no PostgreSQL com as configurações do **application.properties**
 4. Execute o **Application.java**
 
-## Autor
+### Autor
 Isabel Henrique
 
 https://www.linkedin.com/in/isabel-henrique/
