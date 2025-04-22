@@ -62,7 +62,7 @@ Pré-requisito: Java 17
 3. Crie o database no PostgreSQL com as configurações do **application.properties**
 4. Execute o **Application.java**
 
-### Autor
+## Autor
 Isabel Henrique
 
 https://www.linkedin.com/in/isabel-henrique/
